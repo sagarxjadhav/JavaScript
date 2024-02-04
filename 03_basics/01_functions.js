@@ -27,7 +27,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "sam"){        // default parameter is sam
     if(!username){
         console.log("PLease enter a username");
         return
@@ -38,8 +38,8 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
-
-function calculateCartPrice(val1, val2, ...num1){
+ 
+function calculateCartPrice(val1, val2, ...num1){       // ...num1 is rest operator
     return num1
 }
 
